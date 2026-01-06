@@ -1,0 +1,401 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/nuhaaaa
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 865
+    content: "\e[?2004h\e]0;root@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR: /home/nuhaaaa\aroot@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR:/home/nuhaaaa# "
+  - delay: 1335
+    content: m
+  - delay: 342
+    content: 'y'
+  - delay: 742
+    content: s
+  - delay: 321
+    content: q
+  - delay: 148
+    content: l
+  - delay: 673
+    content: "\r\n\e[?2004l\r"
+  - delay: 29
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 33\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 1299
+    content: s
+  - delay: 336
+    content: h
+  - delay: 282
+    content: o
+  - delay: 285
+    content: w
+  - delay: 155
+    content: ' '
+  - delay: 580
+    content: d
+  - delay: 96
+    content: a
+  - delay: 160
+    content: t
+  - delay: 86
+    content: a
+  - delay: 570
+    content: b
+  - delay: 1262
+    content: a
+  - delay: 356
+    content: s
+  - delay: 289
+    content: e
+  - delay: 306
+    content: s
+  - delay: 613
+    content: ;
+  - delay: 602
+    content: "\r\n+--------------------+\r\n| Database           |\r\n+--------------------+\r\n| STUDYING           |\r\n| diskon_produk      |\r\n| information_schema |\r\n| mysql              |\r\n| performance_schema |\r\n| repo               |\r\n| sistem_hotel       |\r\n| sys                |\r\n+--------------------+\r\n\e(B\e[0;1m8 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 1241
+    content: u
+  - delay: 168
+    content: s
+  - delay: 206
+    content: e
+  - delay: 514
+    content: ' '
+  - delay: 553
+    content: d
+  - delay: 208
+    content: i
+  - delay: 165
+    content: s
+  - delay: 163
+    content: k
+  - delay: 444
+    content: o
+  - delay: 287
+    content: 'n'
+  - delay: 652
+    content: ' '
+  - delay: 566
+    content: "\r\e[29G"
+  - delay: 437
+    content: _
+  - delay: 628
+    content: p
+  - delay: 237
+    content: r
+  - delay: 165
+    content: o
+  - delay: 194
+    content: d
+  - delay: 218
+    content: u
+  - delay: 332
+    content: k
+  - delay: 399
+    content: _
+  - delay: 962
+    content: "\r\e[36G\e[K"
+  - delay: 739
+    content: ;
+  - delay: 1969
+    content: "\r\n"
+  - delay: 11
+    content: "\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 7381
+    content: "CREATE TABLE produk (\r\n    ->     id_produk INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_produk VARCHAR(100),\r\n    ->     harga INT\r\n    -> );\r\n"
+  - delay: 27
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,029 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 8802
+    content: "CREATE TABLE diskon (\r\n    ->     id_diskon INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_diskon VARCHAR(100),\r\n    ->     persentase INT\r\n    -> );\r\n"
+  - delay: 10
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,010 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 18895
+    content: "CREATE TABLE produk_diskon (\r\n    ->     id_pd INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_produk INT,\r\n    ->     id_diskon INT,\r\n    ->     FOREIGN KEY (id_produk) REFERENCES produk(id_produk),\r\n    ->     FOREIGN KEY (id_diskon) REFERENCES diskon(id_diskon)\r\n    -> );\r\n"
+  - delay: 14
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,014 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 13457
+    content: "INSERT INTO produk (nama_produk, harga) VALUES\r\n    -> ('Baju', 100000),\r\n    -> ('Celana', 150000),\r\n    -> ('Sepatu', 300000);\r\n"
+  - delay: 6
+    content: "\e(B\e[0;1mQuery OK, 3 rows affected (0,006 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 3  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 21582
+    content: "INSERT INTO diskon (nama_diskon, persentase) VALUES\r\n    -> ('Diskon Akhir Tahun', 20),\r\n    -> ('Diskon Member', 10);\r\n\e(B\e[0;1mQuery OK, 2 rows affected (0,002 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 9784
+    content: "INSERT INTO produk_diskon (id_produk, id_diskon) VALUES \b\r\n    -> (1, 1),\r\n    -> (2, 2),\r\n    -> (3, 1);\r\n\e(B\e[0;1mQuery OK, 3 rows affected (0,002 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 3  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 2333
+    content: s
+  - delay: 285
+    content: e
+  - delay: 144
+    content: l
+  - delay: 157
+    content: e
+  - delay: 552
+    content: c
+  - delay: 161
+    content: t
+  - delay: 300
+    content: ' '
+  - delay: 414
+    content: '*'
+  - delay: 358
+    content: ' '
+  - delay: 374
+    content: f
+  - delay: 229
+    content: r
+  - delay: 123
+    content: o
+  - delay: 288
+    content: m
+  - delay: 289
+    content: ' '
+  - delay: 6222
+    content: p
+  - delay: 283
+    content: r
+  - delay: 153
+    content: o
+  - delay: 215
+    content: d
+  - delay: 166
+    content: u
+  - delay: 274
+    content: k
+  - delay: 473
+    content: ;
+  - delay: 371
+    content: "\r\n+-----------+-------------+--------+\r\n| id_produk | nama_produk | harga  |\r\n+-----------+-------------+--------+\r\n|         1 | Baju        | 100000 |\r\n|         2 | Celana      | 150000 |\r\n|         3 | Sepatu      | 300000 |\r\n+-----------+-------------+--------+\r\n\e(B\e[0;1m3 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 979
+    content: s
+  - delay: 287
+    content: e
+  - delay: 139
+    content: l
+  - delay: 64
+    content: e
+  - delay: 325
+    content: c
+  - delay: 163
+    content: t
+  - delay: 308
+    content: ' '
+  - delay: 395
+    content: '*'
+  - delay: 420
+    content: ' '
+  - delay: 266
+    content: f
+  - delay: 229
+    content: r
+  - delay: 85
+    content: o
+  - delay: 263
+    content: m
+  - delay: 854
+    content: ' '
+  - delay: 3683
+    content: d
+  - delay: 144
+    content: i
+  - delay: 150
+    content: s
+  - delay: 107
+    content: k
+  - delay: 177
+    content: o
+  - delay: 270
+    content: 'n'
+  - delay: 827
+    content: ;
+  - delay: 329
+    content: "\r\n+-----------+--------------------+------------+\r\n| id_diskon | nama_diskon        | persentase |\r\n+-----------+--------------------+------------+\r\n|         1 | Diskon Akhir Tahun |         20 |\r\n|         2 | Diskon Member      |         10 |\r\n+-----------+--------------------+------------+\r\n\e(B\e[0;1m2 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 714
+    content: s
+  - delay: 265
+    content: e
+  - delay: 143
+    content: l
+  - delay: 74
+    content: e
+  - delay: 335
+    content: c
+  - delay: 162
+    content: t
+  - delay: 327
+    content: ' '
+  - delay: 363
+    content: '*'
+  - delay: 363
+    content: ' '
+  - delay: 300
+    content: f
+  - delay: 258
+    content: r
+  - delay: 75
+    content: o
+  - delay: 297
+    content: m
+  - delay: 368
+    content: ' '
+  - delay: 3615
+    content: p
+  - delay: 748
+    content: r
+  - delay: 149
+    content: o
+  - delay: 222
+    content: d
+  - delay: 175
+    content: u
+  - delay: 247
+    content: k
+  - delay: 427
+    content: _
+  - delay: 624
+    content: d
+  - delay: 189
+    content: i
+  - delay: 141
+    content: s
+  - delay: 123
+    content: k
+  - delay: 198
+    content: o
+  - delay: 270
+    content: 'n'
+  - delay: 668
+    content: ;
+  - delay: 1873
+    content: "\r\n+-------+-----------+-----------+\r\n| id_pd | id_produk | id_diskon |\r\n+-------+-----------+-----------+\r\n|     1 |         1 |         1 |\r\n|     2 |         2 |         2 |\r\n|     3 |         3 |         1 |\r\n+-------+-----------+-----------+\r\n\e(B\e[0;1m3 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [diskon_produk]> "
+  - delay: 127542
+    content: e
+  - delay: 413
+    content: x
+  - delay: 112
+    content: i
+  - delay: 352
+    content: t
+  - delay: 28667
+    content: "\r\n"
+  - delay: 21
+    content: "\e(B\e[0;1mBye\r\n\e(B\e[m\e[?2004h\e]0;root@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR: /home/nuhaaaa\aroot@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR:/home/nuhaaaa# "
+  - delay: 4088
+    content: l
+  - delay: 172
+    content: o
+  - delay: 364
+    content: g
+  - delay: 542
+    content: o
+  - delay: 265
+    content: u
+  - delay: 281
+    content: t
+  - delay: 710
+    content: "\r\n\e[?2004l\r"
